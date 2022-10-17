@@ -17,10 +17,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-  - task: UiPathRunJob@2
+
+  - task: UiPathTest@2
     inputs:
+      testTarget: 'TestSet'
       orchestratorConnection: 'Con_Orch_DevOPs'
-      processName: 'Devops'
+      testSet: 'Devops_1'
       folderName: 'Sai Krishna Mada'
-      jobType: 'TestAutomation'
-      user: 'txhyd_lap_126\sai mada'
