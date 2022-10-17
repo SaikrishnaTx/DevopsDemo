@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
- Default
+ name: saikrishna
 
 steps:
 - script: echo Hello, world!
