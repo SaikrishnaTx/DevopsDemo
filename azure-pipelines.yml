@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  sai mada
 
 steps:
 - script: echo Hello, world!
