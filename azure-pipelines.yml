@@ -18,10 +18,9 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
   
-  - task: UiPathRunJob@2
-    inputs:
-      orchestratorConnection: 'Con_Orch_DevOPs'
-      processName: 'Devops'
-      folderName: 'Sai Krishna Mada'
-      jobType: 'TestAutomation'
-      user: 'txhyd_lap_126\sai mada'
+  - task: AppCenterTest@1
+  inputs:
+    artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
+    frameworkOption: 'appium'
+    credentialsOption: 'serviceEndpoint'
+    localeOption: 'en_US'
