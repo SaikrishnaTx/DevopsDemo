@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
- name: saikrishna
+ name: sai mada
 
 steps:
 - script: echo Hello, world!
