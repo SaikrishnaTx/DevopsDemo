@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  Sai Mada
+  name:TXHYD_LAP_126
 
 steps:
 - script: echo Hello, world!
