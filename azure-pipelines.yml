@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
- Mada Sai Krishna
+ TXHYD_LAP_126
 
 steps:
 - script: echo Hello, world!
