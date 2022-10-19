@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
- uipath
+ krishna
 
 steps:
 - script: echo Hello, world!
