@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  Azure Pipelines
+  krishna
 
 steps:
 - script: echo Hello, world!
